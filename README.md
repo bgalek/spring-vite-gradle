@@ -1,4 +1,4 @@
-spring+frontend gradle app
+spring+vite gradle app
 ---
 
 # Goal
