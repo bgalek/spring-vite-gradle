@@ -16,13 +16,13 @@ jobs:
     - uses: gradle/actions/setup-gradle@v4
     - run: ./gradlew build
     - run: ./gradlew build
-    - run: echo "lolz!" >> frontend/src/lol.ts
+    - run: echo "console.log('it works!');" >> frontend/src/lol.ts
     - run: ./gradlew build
     - run: ./gradlew build
     - run: echo "change=true" >> backend/src/main/resources/application.properties
     - run: ./gradlew build
     - run: ./gradlew build
-    - run: echo "lolz2!" > frontend/src/lol.ts
+    - run: echo "console.log('it works again!');" > frontend/src/lol.ts
     - run: echo "change2=true" >> backend/src/main/resources/application.properties
     - run: ./gradlew build
     - run: ./gradlew build
